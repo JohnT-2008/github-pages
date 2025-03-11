@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John T Codes and Tech</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>John T Codes and Tech</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle">Toggle Theme</button>
+    </header>
+
+    <main>
+        <input type="text" id="search" placeholder="Search posts..." onkeyup="searchPosts()">
+
+        <section class="featured">
+            <h2>Featured Post</h2>
+            <article>
+                <h3>Welcome to John T Codes and Tech!</h3>
+                <p>Explore the latest in technology, coding tips, and tutorials.</p>
+                <a href="#">Read More</a>
+            </article>
+        </section>
+
+        <section class="posts">
+            <h2>Recent Posts</h2>
+            <div class="post">
+                <h3>Understanding JavaScript ES6 Features</h3>
+                <p>A deep dive into JavaScript ES6 and how it improves coding efficiency.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="post">
+                <h3>Top 5 Python Libraries for Developers</h3>
+                <p>Boost your productivity with these must-know Python libraries.</p>
+                <a href="#">Read More</a>
+            </div>
+        </section>
+
+        <section class="comments">
+            <h2>Leave a Comment</h2>
+            <textarea id="comment-input" placeholder="Write your comment..."></textarea>
+            <button onclick="addComment()">Post Comment</button>
+            <ul id="comment-list"></ul>
+        </section>
+    </main>
+
+    <aside>
+        <h2>Subscribe</h2>
+        <p>Stay updated with the latest tech insights.</p>
+        <input type="email" placeholder="Your email">
+        <button>Subscribe</button>
+    </aside>
+
+    <footer>
+        <p>© 2025 John T Codes and Tech | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
